@@ -64,3 +64,79 @@ body {
     border-radius: 10px;
 }
 /* Header Section */
+
+/* Bestow Section */
+#bestow-section {
+    padding: 140px 0px;
+}
+.bestow-text {
+    text-align: center;
+}
+
+.bestow-text h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54.46px;
+    color: #121212;
+    margin: 0;
+}
+
+.bestow-text p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px; 
+    padding: 10px 0;
+}
+
+.bestow-amount {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+    
+}
+
+.bestow-amount h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36.31px; 
+    color: #707070;
+    padding: 50px 22px;
+    background-color: #FAFAFA;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.bestow-amount .extra {
+   border: 2px solid #FF5959;
+   background-color: #FFEEEE; 
+}
+
+.bestow-send {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+.bestow-send input {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    width: 50%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #DADADA;
+    padding-left: 250px;
+    font-size: 18px;
+    color: #B3B3B3;
+}
+.bestow-send a{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+/* Bestow Section */
