@@ -1,6 +1,10 @@
-/* Style Sheet */
 /*  font-family: 'Inter', sans-serif;
-    font-family: 'Poppins', sans-serif; */
+    font-family: 'Poppins', sans-serif; 
+    font-family: 'Lobster', cursive;*/
+
+
+/* Style Sheet */
+
 
 body {
     margin: 0;
@@ -321,3 +325,26 @@ body {
     color: #FAFAFA;  
 }
 /* Subscribe Section */
+
+/* Footer Section */
+    #footer-section {
+        background: #121212;
+        padding: 30px 0px;
+    }
+
+    .footer-text h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FF5959;
+    text-align: center;
+   }
+   .footer-text p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center; 
+    color: #707070;
+   }
+/* Footer Section */
