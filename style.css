@@ -108,6 +108,7 @@ body {
     background-color: #FAFAFA;
     margin-left: 15px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .bestow-amount .extra {
@@ -130,9 +131,11 @@ body {
     outline: none;
     border: none;
     border-bottom: 2px solid #DADADA;
-    padding-left: 250px;
+    text-align: center;
     font-size: 18px;
     color: #B3B3B3;
+    display: block;
+    margin: auto;
 }
 .bestow-send a{
     display: inline-block;
@@ -140,3 +143,74 @@ body {
     text-align: center;
 }
 /* Bestow Section */
+
+/* Bestow Section Plan */
+#bestow-plan-section {
+    padding-bottom: 130px;
+}
+.plan-section-text{ 
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.plan-section-text h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+    color : #121212;
+}
+
+.plan-section-text p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 0 100px;
+    
+}
+.plan-section-card {
+    width: 80%;
+    margin: auto;
+    padding-top: 55px;
+    display: flex;
+     
+}
+
+.plan-section-item {
+    text-align: left;
+    margin-left: 2%;
+    padding: 60px 30px;
+    border-radius: 10px;
+}
+
+.plan-section-item h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color :#121212;
+}
+
+.plan-section-item p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+  
+}   
+
+.plan-section-card .item-1{
+  background-color: rgba(237, 241, 242, 0.763);
+}
+
+.plan-section-card .item-2{
+    background-color: rgba(183, 232, 245, 0.479);
+}
+
+.plan-section-card .item-3{
+    background-color: rgba(245, 222, 179, 0.457);
+  }
+/* Bestow Section Plan */
