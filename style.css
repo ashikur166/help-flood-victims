@@ -214,3 +214,52 @@ body {
     background-color: rgba(245, 222, 179, 0.457);
   }
 /* Bestow Section Plan */
+
+/* Live Donation Part */
+#live-donation-part {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    padding-bottom: 130px;
+}
+.live-donation-text {
+    width: 40%;
+    margin: auto;
+    text-align: left;
+}
+
+.live-donation-text h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+    color : #121212; 
+    text-align: left;  
+}
+
+.live-donation-text p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify; 
+    color: #707070;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.live-donation-img {
+    width: 45%;
+    margin: auto;
+    width: 550px;
+    height: auto;
+   
+}
+
+.live-donation-img img {
+    border-radius: 20px;
+    margin-left:2.5%;
+    margin-right: 2.5%;
+}
+/* Live Donation Part */
